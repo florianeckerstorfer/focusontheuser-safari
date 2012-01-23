@@ -13,9 +13,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>2</string>
 	<key>Chrome</key>
 	<dict/>
 	<key>Content</key>
@@ -27,6 +27,11 @@
 				<string>focusontheuser.js</string>
 			</array>
 		</dict>
+		<key>Whitelist</key>
+		<array>
+			<string>http://google.com/*</string>
+			<string>http://www.google.com/*</string>
+		</array>
 	</dict>
 	<key>Description</key>
 	<string>Replaces Google+ Profiles in Google search results with the most relevant social profiles</string>
@@ -40,6 +45,8 @@
 			<string>All</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://safariextz.theroadtojoy.at/focusontheuser/update-manifest.plist</string>
 	<key>Website</key>
 	<string>http://theroadtojoy.at/2012/01/23/focusontheuser-safari</string>
 </dict>
