@@ -1,0 +1,4 @@
+*.sublime-project
+*.sublime-workspace
+update-manifest.plist
+*.safariextz
