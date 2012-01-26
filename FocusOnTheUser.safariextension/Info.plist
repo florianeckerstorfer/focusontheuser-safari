@@ -13,13 +13,18 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1</string>
+	<string>1.2</string>
 	<key>CFBundleVersion</key>
-	<string>2</string>
+	<string>3</string>
 	<key>Chrome</key>
 	<dict/>
 	<key>Content</key>
 	<dict>
+		<key>Blacklist</key>
+		<array>
+			<string>http://google.com/reader/*</string>
+			<string>http://www.google.com/reader/*</string>
+		</array>
 		<key>Scripts</key>
 		<dict>
 			<key>End</key>
